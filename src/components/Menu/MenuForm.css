@@ -1,0 +1,9 @@
+.add{
+    display: inline;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.submit{
+    width: 50px;
+}

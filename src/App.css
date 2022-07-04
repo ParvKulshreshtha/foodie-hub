@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.App{
+  margin: auto;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-size: 25px;
+  position: relative;
+  left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* header {
+  height: 75px;
+  margin-top: -33px;
+  background-color: #662626;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+  width: 100%;
+  margin-right: 0;
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 20px;
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.order-btn{
+  font-size: 25px;
+  border-radius: 20px;
+  z-index: 2;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 0;
+  padding: 3px;
+}
+
+.Menu{
+  margin: auto;
+}
+
+h1{
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.banner {
+  /* The image used */
+  background-color: #662626;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image:
+  linear-gradient(to bottom, #f3f4fb85, rgba(0, 0, 0, 0.73)),
+  url(https://d18mqtxkrsjgmh.cloudfront.net/public/styles/header_image/public/2021-03/Eating%20More%20Ultraprocessed%20%E2%80%98Junk%E2%80%99%20Food%20Linked%20to%20Higher%20CVD%20Risk.jpeg?itok=zmNGCySB);
 }

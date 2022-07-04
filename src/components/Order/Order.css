@@ -1,0 +1,18 @@
+.order-btn{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    float: right;
+}
+
+.order-btn:hover{
+    background-color: aqua;
+}
+
+img{
+    height: 40px;
+}
+
+.cart-value{
+    padding:5px;
+}
